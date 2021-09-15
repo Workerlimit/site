@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/site/static/css/main.2dd0919d.chunk.css",
+    "main.js": "/site/static/js/main.bcd531c9.chunk.js",
+    "main.js.map": "/site/static/js/main.bcd531c9.chunk.js.map",
+    "runtime-main.js": "/site/static/js/runtime-main.d9a9b434.js",
+    "runtime-main.js.map": "/site/static/js/runtime-main.d9a9b434.js.map",
+    "static/js/2.d1924588.chunk.js": "/site/static/js/2.d1924588.chunk.js",
+    "static/js/2.d1924588.chunk.js.map": "/site/static/js/2.d1924588.chunk.js.map",
+    "static/js/3.b146c764.chunk.js": "/site/static/js/3.b146c764.chunk.js",
+    "static/js/3.b146c764.chunk.js.map": "/site/static/js/3.b146c764.chunk.js.map",
+    "index.html": "/site/index.html",
+    "static/css/main.2dd0919d.chunk.css.map": "/site/static/css/main.2dd0919d.chunk.css.map",
+    "static/js/2.d1924588.chunk.js.LICENSE.txt": "/site/static/js/2.d1924588.chunk.js.LICENSE.txt",
+    "static/media/style.scss": "/site/static/media/search.a16dbfa5.svg",
+    "static/media/Support.scss": "/site/static/media/arrow-show.d5ef7aea.svg",
+    "static/media/Footer.scss": "/site/static/media/arrow-top.af5b96f4.svg",
+    "static/media/battery.9feab9b5.svg": "/site/static/media/battery.9feab9b5.svg",
+    "static/media/brake.5b4f8488.svg": "/site/static/media/brake.5b4f8488.svg",
+    "static/media/checklist.32771f89.svg": "/site/static/media/checklist.32771f89.svg",
+    "static/media/Order.scss": "/site/static/media/phone.88f92b2d.jpg",
+    "static/media/fans.6feb7846.svg": "/site/static/media/fans.6feb7846.svg",
+    "static/media/CataloguePage.scss": "/site/static/media/share.066c0ca3.svg",
+    "static/media/Cart.scss": "/site/static/media/more-arrow.ebeb10ca.svg",
+    "static/media/oil.04020fe9.svg": "/site/static/media/oil.04020fe9.svg",
+    "static/media/piston.c1782834.svg": "/site/static/media/piston.c1782834.svg",
+    "static/media/Question.scss": "/site/static/media/question.65b44333.svg",
+    "static/media/remote.50c0a0bd.svg": "/site/static/media/remote.50c0a0bd.svg",
+    "static/media/speedometer.9356ab16.svg": "/site/static/media/speedometer.9356ab16.svg",
+    "static/media/steering.90be0e9c.svg": "/site/static/media/steering.90be0e9c.svg",
+    "static/media/tire.118a50f4.svg": "/site/static/media/tire.118a50f4.svg",
+    "static/media/transmission.3bd118b8.svg": "/site/static/media/transmission.3bd118b8.svg",
+    "static/media/wheel.f277195a.svg": "/site/static/media/wheel.f277195a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d9a9b434.js",
+    "static/js/2.d1924588.chunk.js",
+    "static/css/main.2dd0919d.chunk.css",
+    "static/js/main.bcd531c9.chunk.js"
+  ]
+}
