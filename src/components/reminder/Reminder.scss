@@ -1,0 +1,31 @@
+.reminder{
+    &-block{
+        padding-bottom: 200px;
+    }
+    &-wrapper{
+        background: linear-gradient(180deg, #274466 0%, #4A2766 100%);
+        box-shadow: 0px 4px 24px #1C2755;
+        border-radius: 4px;
+        padding: 40px 64px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .btn{
+            height: 25px !important;
+        }
+    }
+    &__title{
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 32px;
+        color: #FFD88B;
+        text-transform: uppercase;
+    }
+    &__content{
+        width: 40%;
+    }
+    &__text{
+        margin-top: 16px;
+    }
+   
+}

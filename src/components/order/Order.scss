@@ -1,0 +1,107 @@
+.order{
+    width: 65%;
+    padding: 3.1em 5.27em;
+    background: #273566;
+    box-shadow: 0px 4px 24px #1C2755;
+    &-wrapper{
+        width: 100%;
+    }
+    &__input{
+        width: 92%;
+        &+&{
+            margin-top: 0.44em;
+        }
+    }
+    &__text{
+        margin-bottom: 2.67em;
+    }
+    .btn{
+        margin-top: 2.67em !important;
+        text-align: center;
+        width: 78% !important;
+    }
+}
+.add-text{
+    margin-top: 2.22em;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 1.55em;
+    text-align: center;
+    color: #35CD7B;
+}
+.download{
+    &-form{
+        background: #273566;
+        box-shadow: 0px 4px 24px #1C2755;
+        width: 70%;
+        &__img{
+            background: url("../../images/phone.jpg");
+            height: 10.4em;
+        }
+        &__content{
+            padding: 2.4em 5.27em 3em;
+            .btn{
+                text-align: center;
+                width: auto !important;
+                margin-top: 1.33em !important;
+            }
+        }
+        &__title{
+            font-weight: bold;
+            font-size: 1.33em;
+            line-height: 1.55em;
+            text-align: center;
+        }
+        &__text{
+            margin-top: 1.4em;
+        }
+    }
+}
+.text{
+    font-weight: 500;
+    font-size: 1.1em;
+    line-height: 1.55em;
+    text-align: center;
+    color: #BCC1E1;
+}
+.error{
+    background: url("../../icons/error.svg") no-repeat center center;
+    width: 7em;
+    height: 7em;
+    margin: 0 auto;
+}
+.popup-download{
+    position: fixed;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #273566;
+    box-shadow: 0px 4px 32px #0A0D25;
+    padding: 3.1em 7em; 
+}
+.content{
+    width: 26.67em;
+    text-align: center;
+    &__title{
+        font-weight: 600;
+        line-height: 2em;
+        font-size: 1.5em;
+    }
+    &__text{
+        font-weight: 500;
+        font-size: 1.1em;
+        line-height: 1.55em;
+        color: #BCC1E1;
+        margin-top: 0.88em;
+    }
+    .input{
+        margin-top: 2.67em;
+        width: 80%;
+    }
+    .btn{
+        margin: 2.67em 0 0 1.67em;
+        width: 68% !important;
+        text-align: center;
+    }
+}

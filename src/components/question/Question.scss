@@ -1,0 +1,34 @@
+.question{
+    padding: 137px 95px 127px 64px;
+    background: #152149;
+    display: flex;
+    justify-content: space-between;
+    .title{
+        margin-bottom: 40px;
+    }
+    &-block{
+        margin-bottom:200px;
+    }
+    &__icon{
+        position: relative;
+        top: -20px;
+        width: 240px;
+        height: 320px;
+        background: url("../../icons/question.svg") no-repeat center center;
+    }
+    &__content{
+        width: 70%;
+    }
+    &__text{
+        width: 70%;
+    }
+    &__btns{
+        margin-top: 64px;
+        display: flex;
+        justify-content: space-between;
+        .btn{
+            width: 235px !important;
+            text-align: center;
+        }
+    }
+}

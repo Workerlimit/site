@@ -1,0 +1,407 @@
+// @media screen and (max-width: 1399px) {
+//     .container{
+// 		max-width: 890px !important;
+// 	}
+// 	.wrapper{
+// 		font-size: 16px !important;
+// 	}   
+//     .car-block{
+//         background-size: cover !important;
+//         width: 39%;
+//         height: 35em;
+//     }
+// }
+//     .first-screen{
+//         &__text{
+//             width: 70%;
+//         }
+//     }
+//     .btn{
+//         padding: 0.8em 1.5em;
+//     }
+//     .car-block{
+//         height: 550px;
+//         width: 500px;
+//         background-size: cover;
+//     }
+//     .s-first-screen{
+//         margin-bottom: 20em;
+//     }
+//     .title{
+//         font-size: 35px;
+//     }
+//     .download-form{
+//         &__content{
+//             padding: 30px 70px 70px;
+//         }
+//     }
+//     .clue-content{
+//         &__img{
+//             background-size: cover;
+//         }
+//     }
+//     .reminder{
+//         &-block{
+//             padding-bottom: 100px;
+//         }
+//         &__content{
+//             width: 50%;
+//         }
+//     }
+//     .question{
+//         &__content{
+//             width: 73%;
+//         }
+//         &__icon{
+//             height: 260px;
+//             width: 200px;
+//             background-size: cover;
+//             top: 0;
+//         }
+//         &__btns{
+//             .btn{
+//                 width: 13em !important;
+//             }
+//         }
+//         &-block{
+//             margin-bottom:120px;
+//         }
+//     }
+//     .action{
+//         &__input{
+//             width: 80%;
+//         }
+//     }
+//     .question_btns .btn{
+//         display:block !important;
+//     }
+// }
+
+// @media (max-width: 1019px) {
+//     .wrapper{
+// 		font-size: 15px;
+// 	}
+// 	.container{
+// 		padding: 0 15px;
+// 	}
+//     .close{
+//         width: 20px;
+//         height: 20px;
+//         background: url("../icons/close.svg") no-repeat center center;
+//     }
+//     .hidden-nav-menu{
+//         display: block;
+//         width: 348px;
+//         height: 400px;
+//         background:#273566;
+//         position: absolute;
+//         z-index: 2;
+//         left: 0;
+//         top: 15px;
+//         padding: 20px 25px;
+//         .logo, .menu, .btn{
+//             display: block;
+//         }
+//         .logo{
+//             margin-left: 8em;
+//         }
+//         .menu{
+//             display: flex;
+//             flex-direction: column;
+//             &__item{
+//                 &+&{
+//                     margin-top: 2em !important;
+//                 }
+//             }
+//         }
+//         &-top{
+//             display: flex;
+//             margin-bottom: 5em;
+//         }
+//     }
+//     .question_btns .btn{
+//         display:block;
+//     }
+//     .adding-block{
+//         &__content{
+//             flex-wrap: wrap;
+//         }
+//     }
+//     .btn{
+//         display: block !important;
+//     }
+//     .order-wrapper, .download-form{
+//         width: 80%;
+//         margin: 0 auto;
+//     }
+//     .download-form{
+//         position: relative;
+//         width: 75%;
+//         left: -20px;
+//     }
+//     .hidden-menu{
+//         font-weight: bold;
+//         font-size: 20px;
+//         line-height: 28px;
+//         margin-bottom: 2em;
+//     }
+// 	.burger_btn {
+//         position: relative;
+//         display: grid;
+//         grid-template-columns: repeat(2, auto);
+//         grid-area: burger;
+//         justify-content: center;
+//         align-items: center;
+//         margin-right: auto;
+//         cursor: pointer;
+//         grid-row: 1;
+//         grid-column: 3;
+//         transition: all .5s ease-in-out;
+//         >span {
+//             font-family: 'Gotham Pro';
+//             font-size: 12px;
+//             line-height: 160%;
+//             letter-spacing: 0.05em;
+//             text-transform: uppercase;
+//         }
+//     }
+//     .burger {
+//         width: 24px;
+//         margin-left: 8px;
+//         height: 1.5px;
+//         background: #fff;
+//         transition: all .5s ease-in-out;
+//     }
+//     .burger::before,
+//     .burger::after {
+//         content: '';
+//         position: absolute;
+//         width: 24px;
+//         height: 1.5px;
+//         background: #fff;
+//         transition: all .5s ease-in-out;
+//     }
+//     .burger::before {
+//         transform: translateY(-8px);
+//     }
+//     .burger::after {
+//         transform: translateY(8px);
+//     }
+//     .hidden_nav.enter {
+//         opacity: 0;
+//         transform: translateX(-1000px);
+//         transition: all 0.4s ease;
+//     }
+//     .hidden_nav.enter-done {
+//         opacity: 1;
+//         transform: translateX(-500px);
+//     }
+//     .hidden_nav.exit {
+//         opacity: 1;
+//     }
+//     .hidden_nav.exit-active {
+//         opacity: 0;
+//         transform: translateX(-1000px);
+//     }
+//     .hidden-nav-menu{
+//         display: block;
+//     }
+//     .logo, .menu, .btn{
+//         display: none;
+//     }
+//     .header-wrapper{
+//         justify-content: space-between;
+//     }
+//     .action-block{
+//         .btn{
+//             display:none !important;
+//         }
+//     }
+// }
+
+// @media (max-width: 699px) {
+//     .car-block {
+//         height: 350px;
+//         width: 300px;
+//     }
+//     .first-screen__title {
+//         font-size: 30px;
+//     }
+//     .first-screen__text {
+//         width: 80%;
+//     }
+//     .btn{
+//         padding: 0.7em;
+//         font-size:14px;
+//     }
+//     .first-screen__btns {
+//         flex-wrap: wrap;
+//         gap: 10px;
+//         .btn{
+//             &+&{
+//                 margin-top: 10px;
+//             }
+//         }
+//     }
+//     .s-first-screen {
+//         margin-bottom: 7em;
+//     }
+//     .clue-content__img {
+//         width: 48%;
+//         height: 25em;
+//     }
+//     .clue-content__img--3{
+//         width: 100% !important;
+//     }
+//     .adding-block .title {
+//         width: 100%;
+//     }
+//     .clue-wrapper {
+//         padding-bottom: 7em;
+//     }
+//     .question__text {
+//         width: 100%;
+//     }
+//     .question__btns {
+//         flex-wrap: wrap;
+//         gap: 20px;
+//     }
+//     .logo{
+//         display: block;
+//     }
+//     .white-line{
+//         display: none;
+//     }
+//     .question__icon {
+//         height: 220px;
+//         width: 190px;
+//         right: -40px;
+//         top: 20px;
+//         position: relative;
+//     }
+//     .footer-content{
+//         gap: 20px;
+//         flex-wrap: wrap;    
+//     }
+//     .footer-menu{
+//         margin: 0 auto;
+//         width: 200px;
+//     }
+//     .action__text{
+//         margin-top: 20px;
+//     }
+//     .footer__menu-content{
+//         margin-top: 25px;
+//     }
+//     .action{
+//         flex-wrap: wrap;
+//         gap: 20px;
+//     }
+// }
+
+// @media (max-width: 529px){
+//     .header-wrapper{
+//         .logo{
+//             display: none;
+//         }
+//     }
+//     .car-block {
+//         height: 180px;
+//         width: 150px;
+//         top: 20px;
+//     }
+//     .first-screen__btns {
+//         margin-top: 8em;
+//         .btn{
+//             width: 100%;
+//         }
+//     }
+//     .title{
+//         font-size:20px;
+//         line-height:24px;
+//     }
+//     .clue-content{
+//         &__img{
+//             width: 100%;
+//         }
+//     }
+//     .order-wrapper{
+//         width: 100%;
+//     }
+//     .order{
+//         width:90%;
+//         padding: 10px;
+//     }
+//     .order__text {
+//         margin-bottom: 24px;
+//     }
+//     .btn{
+//         width: 100% !important;
+//         margin: 0 auto;
+//     }
+//     .add-text{
+//         font-size: 14px;
+//     }
+//     .download-form {
+//         width: 100%;
+//         margin: 0 auto;
+//         left: 0.5%;
+//     }
+//     .download-form__content {
+//         padding: 10px 40px 40px;
+//     }
+//     .adding-wrapper {
+//         padding: 0 0 5em;
+//     }
+//     .showmore {
+//         font-size: 11px;
+//     }
+//     .reminder-wrapper {
+//         padding: 10px 25px;
+//         flex-wrap: wrap;
+//     }
+//     .reminder__content {
+//         width: 100%;
+//     }
+//     .reminder__text{
+//         margin-bottom: 10px;
+//     }
+//     .question {
+//         padding: 20px 40px 50px 35px;
+//     }
+//     .question__icon {
+//         height: 170px;
+//         width: 170px;
+//         right: -35px;
+//     }
+//     .question__btns {
+//         .btn{
+//             width: 100% !important;
+//         }
+//     }
+//     .question__content {
+//         width: 80%;
+//     }
+//     .order__input{
+//         width: 88%;
+//     }
+//     .input{
+
+//     }
+//     .s-first-screen {
+//         padding-top: 0em;
+//     }
+//     .first-screen__title{
+//         font-size: 20px;
+//         width: 100%;
+//         line-height: 25px;
+//     }
+//     .first-screen{
+//         width: 100%;
+//     }
+//     .first-screen__text {
+//         margin-top: 0.4em;
+//         font-size: 0.8em;
+//         width: 70%;
+//     }
+// }
